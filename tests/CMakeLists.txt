@@ -4,6 +4,7 @@ project(regit_tests)
 include(cmake/flags.cmake)
 include(cmake/utils.cmake)
 
+add_regit_tests(test_circular_buffer)
 add_regit_tests(test_variant)
 add_regit_tests(test_thread_pool)
 add_regit_tests(test_timer)
